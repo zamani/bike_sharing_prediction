@@ -1,22 +1,30 @@
 # bike-sharing
 The goal is to predict the bike sharing count per hour. The dataset can be found here (https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset.)
 ## Setup
-update pip and install virtualenv if necessary (check [here](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/))
+:warning:update pip and install virtualenv if necessary (check [here](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/))
+(Optional) update the python pip
+```
+python -m pip install --upgrade pip
+```
+First clone the repo and navigate into the local repo:
+```
+git clone https://github.com/zamani/bike_sharing_prediction.git
+cd bike_sharing_prediction
+```
 
-
-create a virtual environment in python:
+Create a virtual environment in python:
 ```
 python -m venv bike_sharing_env
 ```
-then, activate the environment on Windows:
+Then, activate the environment on Windows:
 ```
 .\bike_sharing_env\Scripts\activate
 ```
-and on Linux/macOS
+(And on Linux/macOS)
 ```
 source env/bin/activate
 ```
-finally, install the requirements:
+Finally, install the requirements:
 ```
 pip install -r requirements.txt
 ``` 
